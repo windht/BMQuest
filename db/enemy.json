@@ -1,0 +1,83 @@
+[
+	{
+		"name":"史萊姆",
+		"id":"001",
+
+		"head":"img/slime.png",
+
+		"attack_base":40,
+		"attack_dice":2,
+		"attack_variance":20,
+		"accuracy_rate":90,
+		"critical_rate":0,
+		"critical_multiplier":50,
+		
+		"ultimate_stack":0,
+		"ultimate_skill":{
+			"target":1,
+			"damage_multiplier":1
+		},
+
+		"hp":400,
+		"max_hp":400,
+		"defense_point":5,
+		"evade":0,
+
+		"speed":24,
+		"bar_position":24
+	},
+	{
+		"name":"哥布林",
+		"id":"002",
+
+		"head":"img/goblin.png",
+
+		"attack_base":40,
+		"attack_dice":2,
+		"attack_variance":20,
+		"accuracy_rate":90,
+		"critical_rate":0,
+		"critical_multiplier":50,
+		
+		"ultimate_stack":0,
+		"ultimate_skill":{
+			"target":1,
+			"damage_multiplier":1
+		},
+
+		"hp":500,
+		"max_hp":500,
+		"defense_point":4,
+		"evade":0,
+
+		"speed":28,
+		"bar_position":28
+	},
+	{
+		"name":"巨人",
+		"id":"003",
+
+		"head":"img/giant.png",
+
+		"attack_base":60,
+		"attack_dice":2,
+		"attack_variance":20,
+		"accuracy_rate":70,
+		"critical_rate":0,
+		"critical_multiplier":150,
+		
+		"ultimate_stack":0,
+		"ultimate_skill":{
+			"target":1,
+			"damage_multiplier":2
+		},
+
+		"hp":800,
+		"max_hp":800,
+		"defense_point":4,
+		"evade":0,
+
+		"speed":50,
+		"bar_position":50
+	}
+]

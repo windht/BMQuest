@@ -1,0 +1,24 @@
+{
+  "name": "MindDrop",
+  "version": "0.0.1",
+  "main": "app://minddrop/game/index.html",
+  "window": {
+    "title": "BMQuest",
+    // "icon": "game/icon/icon.png",
+    "toolbar": true,
+    "frame": false,
+    "resizable": false,
+    "transparent": false,
+    "always-on-top": false,
+    "width": 900,
+    "height": 761,
+    "show_in_taskbar": true,
+    "position": "center",
+    "min_width": 900,
+    "min_height": 761
+  }
+  // "dependencies": {
+  //   "lowdb": "^0.10.2",
+  //   "archiver":"*"
+  // }
+}

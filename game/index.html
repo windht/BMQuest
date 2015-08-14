@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="BMQuest">
+<head>
+	<meta charset="UTF-8">
+	<title>BMQuest</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/core/pixi.min.js"></script>
+	<script type="text/javascript" src="js/core/EZGUI.js"></script>
+
+	<script type="text/javascript" src="js/core/angular.min.js"></script>
+	<script type="text/javascript" src="js/core/angular-animate.min.js"></script>
+	<script type="text/javascript" src="js/core/angular-aria.min.js"></script>
+	<script type="text/javascript" src="js/core/angular-material.min.js"></script>
+	<script type="text/javascript" src="js/core/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="js/core/underscore-min.js"></script>
+
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/battle.js"></script>
+	<script type="text/javascript" src="js/level.js"></script>
+	<script type="text/javascript" src="js/player.js"></script>
+
+</head>
+<body ng-controller="MainCtrl">
+	<button ng-click="startBattle()" style="position:relative;z-index:3;">開始對戰</button>
+
+	<battle-log></battle-log>
+</body>
+</html>
